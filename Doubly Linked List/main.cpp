@@ -35,7 +35,6 @@ class DoublyLinkedList {
 			for (int i = 0; i < objCopy.size(); i++) {
 				push(objCopy.at(i));
 			}
-
 		}
 
 		int size() const {
@@ -105,10 +104,8 @@ class DoublyLinkedList {
 				head = nullptr;
 
 			else 
-				tail->next = nullptr;
-			
+				tail->next = nullptr;	
 		}
-
 
 		void print() const{
 			//checks for empty list
@@ -192,7 +189,6 @@ class DoublyLinkedList {
 		}	
 };
 
-
 void test() {
 	DoublyLinkedList dll;
 
@@ -216,6 +212,5 @@ void test() {
 
 int main() {
 	test();
-
 	return 0;
 }
